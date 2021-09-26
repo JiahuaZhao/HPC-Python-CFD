@@ -1,4 +1,6 @@
 # Python-CFD
 The python programs of the project: Performance of Parallel Python Programs on ARCHER2 in 2021 PRACE Summer of HPC, based on https://github.com/davidhenty/cfd.
+
 The programs is completed by Alejandro Dinkelberg and Jiahua Zhao, supervised by Dr. David Henty (EPCC, UK).
-More information about the project can be found at https://summerofhpc.prace-ri.eu/performance-of-parallel-python-programs-on-archer2/
+
+More information about the project can be found at https://summerofhpc.prace-ri.eu/performance-of-parallel-python-programs-on-archer2/.
