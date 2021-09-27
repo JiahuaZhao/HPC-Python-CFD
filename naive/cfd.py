@@ -181,10 +181,10 @@ def main(argv):
 
     print(scalefactor)
     # Write the output files for subsequent visualisation
-    util.write_data(m, n, scalefactor, psi, "velocity.dat", "colourmap.dat")
+    #util.write_data(m, n, scalefactor, psi, "velocity.dat", "colourmap.dat")
 
     # generate gnuplot file
-    util.writeplotfile(m, n, scalefactor)
+    #util.writeplotfile(m, n, scalefactor)
 
     # Finish nicely
     sys.exit(0)
