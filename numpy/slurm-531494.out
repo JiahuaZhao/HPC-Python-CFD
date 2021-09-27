@@ -1,0 +1,47 @@
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+2D CFD Simulation
+=================
+Scale factor = 256
+Iterations   = 5000
+Reynolds number = 2.0
+
+Grid size = 8192 x 8192
+
+Starting main Jacobi loop ...
+
+Completed iteration 1000
+Completed iteration 2000
+Completed iteration 3000
+Completed iteration 4000
+Completed iteration 5000
+
+... finished
+
+Calculation took 5989.48195s
+
+
+... finished
+
+After 5000  iterations, the error is 0.00032434257410056557
+
+Time for 5000 iterations was 5989.481953382492 seconds
+
+Each iteration took 1.1978963906764983 seconds
+

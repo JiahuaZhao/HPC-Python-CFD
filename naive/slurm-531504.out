@@ -1,0 +1,54 @@
+Unloading /usr/local/share/epcc-module/epcc-module-loader
+
+Warning: Unloading the epcc-setup-env module will stop many
+modules being available on the system. If you do this by
+accident, you can recover the situation with the command:
+
+	module load /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+Unloading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Unloading bolt/0.7
+Loading bolt/0.7
+Loading /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+Loading /usr/local/share/epcc-module/epcc-module-loader
+
+Loading epcc-job-env
+  Loading requirement: bolt/0.7
+    /work/y07/shared/archer2-modules/modulefiles-cse/epcc-setup-env
+
+2D CFD Simulation
+=================
+Scale factor = 256
+Iterations   = 10
+Reynolds number = 2.0
+
+Grid size = 8192 x 8192
+psi [[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+
+Starting main Jacobi loop ...
+
+
+... finished
+
+Calculation took 8482.43245s
+
+
+... finished
+
+After 10  iterations, the error is 0.04208009639833155
+
+Time for 10 iterations was 8482.432452440262 seconds
+
+Each iteration took 848.2432452440262 seconds
+
+256
+scalefactor 256
+
+Written gnuplot script 'cfd.plt'
+
